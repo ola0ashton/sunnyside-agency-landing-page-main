@@ -7,3 +7,7 @@ header {
     height: 60vh;
     padding: 30px;
 }
+nav{
+    display: flex;
+    align-items: center;
+}
