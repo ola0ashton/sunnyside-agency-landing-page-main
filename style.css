@@ -35,18 +35,18 @@ header a{
     display: block;
     text-decoration: none;
     color: white;
+    align-items: center;
 }
 .arrow{
     display: block;
     margin: auto;
 }
-button{
-    border-radius: 10px;
+box{
+    border-radius: 20px;
     color: black;
-    padding: 7px;
+    padding: 12px;
     background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    display: flex;
     border-color: white;
-    border-spacing: 0;
+    justify-content: center;
 }
