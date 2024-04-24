@@ -10,9 +10,16 @@ header {
     background-size: cover;
 }
 nav{
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-<style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+.attribution {
+     font-size: 11px; text-align: center;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+header h1{
+    text-align: center;
+}
