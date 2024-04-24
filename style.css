@@ -6,8 +6,13 @@ header {
     background-image: url(images/desktop/image-header.jpg);
     height: 60vh;
     padding: 30px;
+    background-position: center;
+    background-size: cover;
 }
 nav{
-    display: flex;
-    align-items: center;
+
 }
+<style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
