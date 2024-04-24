@@ -15,11 +15,28 @@ nav{
     justify-content: space-between;
 }
 .attribution {
-     font-size: 11px; text-align: center;
+     font-size: 11px; 
+     text-align: center;
 }
 .attribution a {
      color: hsl(228, 45%, 44%); 
 }
 header h1{
     text-align: center;
+    text-transform: uppercase;
 }
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+header a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.arrow{
+    display: block;
+    margin: auto;
+}
+.
