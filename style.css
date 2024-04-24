@@ -4,8 +4,8 @@
 }
 header {
     background-image: url(images/desktop/image-header.jpg);
-    height: 60vh;
-    padding: 30px;
+    height: 50vh;
+    padding: 35px;
     background-position: center;
     background-size: cover;
 }
@@ -24,6 +24,7 @@ nav{
 header h1{
     text-align: center;
     text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
 }
 header ul {
     display: flex;
@@ -39,4 +40,13 @@ header a{
     display: block;
     margin: auto;
 }
-.
+button{
+    border-radius: 10px;
+    color: black;
+    padding: 7px;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    display: flex;
+    border-color: white;
+    border-spacing: 0;
+}
