@@ -50,3 +50,29 @@ box{
     border-color: white;
     justify-content: center;
 }
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-columns: 6, 1fr;
+}
+main>div {
+     border: 1px solid white;
+     height: 50vh;
+}
+.box1{
+     margin: 50px;
+}
+.box2{
+    background-image: url(./images/desktop/image-transform.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box3{
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box4{}
+.box4{}
+.box5{}
+.box6{}
