@@ -52,15 +52,31 @@ box{
 }
 main {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-columns: 6, 1fr;
+    grid-template-columns: 50% 50% ;
+    grid-template-columns: 6;
 }
 main>div {
      border: 1px solid white;
-     height: 50vh;
+     height: 60vh;
+     padding: 30px;
 }
-.box1{
-     margin: 50px;
+.box1 h1{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 1cm;
+    margin-top: 5%;
+}
+.box1 p{
+    text-align: left;
+    padding-left: 50px;
+}
+.box1 h4{
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 0 0 10 10  hsl(51, 100%, 49%);
+    padding-left: 50px;
+    box-shadow: 20px;
 }
 .box2{
     background-image: url(./images/desktop/image-transform.jpg);
@@ -74,5 +90,13 @@ main>div {
 }
 .box4{}
 .box4{}
-.box5{}
-.box6{}
+.box5{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box6{
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+}
