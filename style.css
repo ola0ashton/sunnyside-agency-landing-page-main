@@ -88,8 +88,12 @@ main>div {
     background-position: center;
     background-size: cover;
 }
-.box4{}
-.box4{}
+.box4{text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 1cm;
+    margin-top: 5%;
+}
 .box5{
     background-image: url(./images/desktop/image-graphic-design.jpg);
     background-position: center;
