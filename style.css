@@ -54,9 +54,10 @@ main {
     display: grid;
     grid-template-columns: 50% 50% ;
     grid-template-columns: 6;
+    grid gap: ;
 }
 main>div {
-     border: 1px solid white;
+     border: 1px solid white transparent8;
      height: 60vh;
      padding: 30px;
 }
@@ -88,12 +89,24 @@ main>div {
     background-position: center;
     background-size: cover;
 }
-.box4{text-align: left;
+.box4 h1{
+    text-align: left;
     padding-top: 20px;
     padding-left: 50px;
     font-size: 1cm;
     margin-top: 5%;
+
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 1cm;
+    margin-top: 5%;
+    
+    
+
 }
+.box4 p{}
+.box4 h4{}
 .box5{
     background-image: url(./images/desktop/image-graphic-design.jpg);
     background-position: center;
