@@ -114,11 +114,29 @@ h3 {
     padding-top: 5vh;
     color: hsl(232, 10%, 55%);
 }
-section{
+#section{
     display: flex;
     flex-direction: row;
-    padding-top: 10vh;
+    margin-block: 10vh;
     text-align: center;
+    gap: 20px;
+    padding-inline: 10vw;
+}
+#section img {
+    border-radius: 100%;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+section>div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+section>div>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 footer {
     background-color: hsl(168, 34%, 41%);
