@@ -90,7 +90,8 @@ main>div {
     width: max-content;
     padding-inline: 10px;
     line-height: 0.4em;
-    border-radius: 20px;}
+    border-radius: 20px;
+}
 .box5,.box6{
     background-image: url(./images/desktop/image-graphic-design.jpg);
     background-position-x: center;
@@ -102,7 +103,6 @@ main>div {
     flex-direction: column;
     text-align: center;
     padding-bottom: 5vh;
-
 }
 .box6{
     background-image: url(./images/desktop/image-photography.jpg);
