@@ -93,7 +93,7 @@ main>div {
     border-radius: 20px;}
 .box5,.box6{
     background-image: url(./images/desktop/image-graphic-design.jpg);
-    background-position: center;
+    background-position-x: center;
     background-size: cover;
     color: hsl(167, 40%, 24%);
     display: flex;
