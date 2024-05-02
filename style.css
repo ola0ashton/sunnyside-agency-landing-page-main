@@ -88,7 +88,6 @@ main>div {
     text-transform: uppercase;
     border-bottom: 5px solid hsl(7, 99%, 70%);
     width: max-content;
-    padding-inline: 10px;
     line-height: 0.4em;
     border-radius: 20px;
 }
